@@ -19,16 +19,25 @@ module.exports = function (RED) {
         let constDirname = new String(filePath).split("/");
         constDirname.pop();
         constDirname = constDirname.join("/");
-        const dir = path.join(__dirname, constDirname);
+
+        const folderpath=path.join(__dirname,"../../");
+        let _filePath=path.join(__dirname,"../../");
+        _filePath=path.join(_filePath,filePath)
+
+        const dir = path.join(folderpath, constDirname);
 
         if (!fs.existsSync(dir)) {
           fs.mkdirSync(dir, { recursive: true });
         }
-        fs.writeFileSync(path.join(__dirname, filePath), msg.file);
-        msg.payload = path.join(__dirname, filePath);
+        fs.writeFileSync(_filePath, msg.file);
+        msg.payload = {
+          fullpath:_filePath,
+          dir:dir,
+          path:filePath,
+        }
         node.send(msg);
       }
     });
   }
-  RED.nodes.registerType("save-file", SaveFile);
+  RED.nodes.registerType("fm-save-file", SaveFile);
 };

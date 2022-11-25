@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  RED.nodes.registerType("save-file", {
+  RED.nodes.registerType("fm-save-file", {
     category: "file manager",
     color: "#C7E9C0",
     defaults: {
@@ -8,10 +8,10 @@
     },
     inputs: 1,
     outputs: 1,
-    paletteLabel: "save-file",
+    paletteLabel: "fm-save-file",
     icon: "file.png",
     label: function () {
-      return this.name || "save-file";
+      return this.name || "fm-save-file";
     },
     oneditprepare: function () {
       if (!this.pathType) {
@@ -26,7 +26,7 @@
   });
 </script>
 
-<script type="text/html" data-template-name="save-file">
+<script type="text/html" data-template-name="fm-save-file">
   <div class="form-row">
     <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
     <input type="text" id="node-input-name" placeholder="Name" />
@@ -45,7 +45,7 @@
   </div>
 </script>
 
-<script type="text/html" data-help-name="save-file">
+<script type="text/html" data-help-name="fm-save-file">
   <p>Save Uploaded File in Local Folder</p>
 
     <h3>Properties</h3>
