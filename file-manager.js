@@ -30,11 +30,7 @@ module.exports = function (RED) {
           fs.mkdirSync(dir, { recursive: true });
         }
         fs.writeFileSync(_filePath, msg.file);
-        msg.payload = {
-          fullpath:_filePath,
-          dir:dir,
-          path:filePath,
-        }
+        msg.payload = filePath;
         node.send(msg);
       }
     });
