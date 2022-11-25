@@ -1,6 +1,6 @@
 {
-  "name": "node-red-file-manager",
-  "version": "1.0.1",
+  "name": "node-red-contrib-file-manager",
+  "version": "1.0.0",
   "description": "Handle File System",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,16 @@
     "save",
     "base64"
   ],
+  "bugs": {
+    "url": "https://github.com/flw18/file-manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flw18/file-manager.git"
+  },
   "node-red": {
     "nodes": {
-      "node-red-file-manager": "file-manager.js"
+      "node-red-contrib-file-manager": "file-manager.js"
     }
   },
   "author": {
