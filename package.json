@@ -12,7 +12,8 @@
     "file",
     "create file",
     "upload",
-    "save"
+    "save",
+    "base64"
   ],
   "node-red": {
     "nodes": {
