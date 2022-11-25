@@ -1,6 +1,6 @@
 {
   "name": "node-red-file-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle File System",
   "main": "index.js",
   "scripts": {
