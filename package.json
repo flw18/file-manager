@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-file-manager",
-  "version": "2.0.1",
+  "version": "2.0.4",
   "description": "Handle File System",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "create file",
     "upload",
     "save",
-    "base64"
+    "buffer"
   ],
   "bugs": {
     "url": "https://github.com/flw18/file-manager/issues"
