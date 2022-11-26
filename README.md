@@ -14,3 +14,6 @@ Set Node variable :<br />
 
 Output :<br />
 ![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture3.PNG)
+
+Testing Data send :<br />
+![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture4.PNG)
