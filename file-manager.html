@@ -59,7 +59,7 @@
         <dt>file<span class="property-type">string</span></dt>
         <dd>File Buffer object <br /><b>Example:</b><br />
           msg.file = Buffer.from(msg.req.files[0].buffer,"base64");<br />
-          msg.path = "/public/files/"+ msg.payload + msg.req.files[0].originalname;<br />
+          msg.path = "/public/files/"+ msg.req.files[0].originalname;<br />
           return msg;
         </dd>
     </dl>    
