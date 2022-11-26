@@ -7,7 +7,7 @@ The nodes and functions provided are:
 
 
 The nodes flow :
-![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture.PNG)
+![alt text](https://raw.githubusercontent.com/flw18/file-manager/master/ref/Capture2.PNG)
 
 Set Node variable :<br />
 ![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture2.PNG)
