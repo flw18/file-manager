@@ -8,9 +8,9 @@ The nodes and functions provided are:
 
 The nodes flow :
 ![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture.PNG)
-<br />
-Set Node variable :
+
+Set Node variable :<br />
 ![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture2.PNG)
 
-Output :
+Output :<br />
 ![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture3.PNG)
