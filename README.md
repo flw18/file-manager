@@ -5,7 +5,7 @@ The nodes and functions provided are:
 
   ## save-file - To create a file from Buffer object
 
-The nodes flow :
+The nodes flow :<br />
 ![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/Capture.PNG?raw=true)
 
 Set Node variable :<br />
@@ -19,7 +19,7 @@ Testing Data send :<br />
 
   ## move-file - To move a file to another location
 
-The nodes flow :
+The nodes flow :<br />
 ![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/move1.PNG?raw=true)
 
 Set Node variable :<br />
