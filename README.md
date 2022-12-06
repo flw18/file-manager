@@ -10,10 +10,10 @@ The nodes flow :
 ![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/Capture.PNG?raw=true)
 
 Set Node variable :<br />
-![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture2.PNG?raw=true)
+![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/Capture2.PNG?raw=true)
 
 Output :<br />
-![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture3.PNG?raw=true)
+![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/Capture3.PNG?raw=true)
 
 Testing Data send :<br />
-![alt text](https://github.com/flw18/file-manager/blob/master/ref/Capture4.PNG?raw=true)
+![alt text](https://github.com/flw18/image-source-ref/blob/main/nd-ref/Capture4.PNG?raw=true)
